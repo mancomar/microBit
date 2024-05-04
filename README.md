@@ -1,0 +1,1 @@
+In this article we are going to program our Micro:bit to control the light meassures in Python. Firstly we are goint to code with the light sensor of Micro:bit. This sensor works whith the matrix of leds that's why the light can provoce a voltage in the leds and in this device we have 25 leds to read this information. The issue is that this sensor only can read direct light.
