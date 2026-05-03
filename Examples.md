@@ -1,5 +1,6 @@
 
-´´´  
+´´´
+
 #Con este programa cramos un contador de pulsaciones con una variable llamada counter
 from microbit import *
 
@@ -11,7 +12,8 @@ while True:
         if counter > 10:
             counter = 0
         display.scroll(str(counter))
-´´´  
+´´´
+
 ´´´ 
 
 from microbit import *
