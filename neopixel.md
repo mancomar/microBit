@@ -1,3 +1,4 @@
+```
 # Escribe tu código aquí :-)
 from microbit import *
 import neopixel
@@ -11,7 +12,7 @@ while True:
     np[0] = (100, 8, 55)
     np.show()
     sleep(1000) # Espera 1 segundo
-
+```
     
 ```
 # Imports go at the top
