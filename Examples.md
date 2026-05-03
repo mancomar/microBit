@@ -1,5 +1,5 @@
 Variables  
-´´´
+´
 #Con este programa cramos un contador de pulsaciones con una variable llamada counter
 from microbit import *
 
