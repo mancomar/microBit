@@ -1,3 +1,7 @@
+Si usamos como editor Mu, podemos comprobar errores luego de compilarlo en Micro:bit activando el botón REPL (Read-Eval-Print-Loop).
+En este ejemplo de programa vamos a programar un pixel del tipo Neopixel, en este caso solo tiene un diodo.  
+Con Neopixel(pinxx. n) indicamos el pin al que conectamos el Neopixel y el núemro de diodos, con np[i]=(256,256,256) indicamos el pin que queremos encender y con qué color.  
+
 ```
 # Escribe tu código aquí :-)
 from microbit import *
