@@ -11,3 +11,23 @@ while True:
     np[0] = (100, 8, 55)
     np.show()
     sleep(1000) # Espera 1 segundo
+
+    
+```
+# Imports go at the top
+from microbit import *
+
+
+# Code in a 'while True:' loop repeats forever
+while True:
+    if button_a.is_pressed():
+        display.scroll(display.read_light_level())
+    else:
+        display.clear()
+    if button_b.is_pressed():
+        display.scroll(pin2.read_analog())
+    else:
+        display.clear()
+
+
+```
