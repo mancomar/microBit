@@ -16,5 +16,17 @@ while True:
     np[0] = (100, 8, 55)
     np.show()
     sleep(1000) # Espera 1 segundo
+    # Apagamos todos los LEDs
+    np.clear()
+    np.show()
+    sleep(1000)
+    while ( pin16.read_digital() == 0 ):
+        for i in range(0, 255, 10):
+            for j in range (0, 255, 10):
+                for k in range (0, 25, 10):
+                    np[0] = (i, j, k)
+                    np.show()
+                    np.clear()
+                    sleep(100)
 ```
     
