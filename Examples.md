@@ -14,8 +14,7 @@ while True:
         display.scroll(str(counter))
 ´´´
 
-´´´ 
-
+´´´
 from microbit import *
 import random
 
@@ -24,6 +23,5 @@ numbers = ["orange", "yellow", "green", "blue"]
 while True:
     if button_a.was_pressed():
         display.scroll(numbers[random.randint(0, 3)])
+´´´
 
-´´´  
-  
