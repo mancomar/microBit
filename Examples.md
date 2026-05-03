@@ -12,7 +12,7 @@ while True:
             counter = 0
         display.scroll(str(counter))
 ´´´  
-´´'  
+´´´ 
 
 from microbit import *
 import random
