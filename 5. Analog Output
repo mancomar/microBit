@@ -1,0 +1,11 @@
+##Analog Output
+Pins 0, 1 and 2 can work in analogue mode. This means instead of being off or on (0 or 1), they vary in value between 0 and 1023.  
+```
+# Escribe tu código aquí :-)
+from microbit import *
+analogout = pin1
+while True:
+    for i in range(1024):
+        pin1.write_analog(i)
+        sleep(3)
+```
